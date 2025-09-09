@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
+      <section className="text-white py-20" style={{backgroundColor: '#3C4F76'}}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mt-30">About Us</h1>
@@ -22,21 +22,47 @@ export default function About() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Aarkey International is a leading project promotion, engineering & construction company which has secured many medium & large-scale infrastructure development projects for Sri Lanka.
+                Aarkey is a multi-sector, diversified conglomerate that is limitless in its reach and possessing an evolving and ever expanding portfolio of services that add value to its clients, their lifestyles and the country.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                The company was the agent for global industry leading corporations in this endeavor, bringing world-class expertise and innovative solutions to infrastructure development across Sri Lanka.
+                The company was founded in 2009 and was primarily the agent for global industry leading corporations in securing major infrastructure development projects in Sri Lanka which were funded by bilateral and multilateral donor agencies.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                With years of experience and a commitment to excellence, we have established ourselves as a trusted partner in delivering high-quality infrastructure projects that drive economic growth and improve the quality of life for communities across the country.
+              Once the company had a foothold in the market and with the acquisition of industry experts and valuable human capital, the company diversified into three main arms - project promotion & construction, trade and digital advertising. Multiple services and products are offered under these three banners.
               </p>
             </div>
-            <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-              <div className="text-center text-gray-500">
-                <svg className="w-24 h-24 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-                </svg>
-                <p className="text-lg">Company History Image</p>
+            <div className="grid grid-cols-2 gap-4 h-96">
+              <div className="bg-gray-200 rounded-lg flex items-center justify-center">
+                <div className="text-center text-gray-500">
+                  <svg className="w-16 h-16 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  </svg>
+                  <p className="text-sm">Project 1</p>
+                </div>
+              </div>
+              <div className="bg-gray-200 rounded-lg flex items-center justify-center">
+                <div className="text-center text-gray-500">
+                  <svg className="w-16 h-16 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  </svg>
+                  <p className="text-sm">Project 2</p>
+                </div>
+              </div>
+              <div className="bg-gray-200 rounded-lg flex items-center justify-center">
+                <div className="text-center text-gray-500">
+                  <svg className="w-16 h-16 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  </svg>
+                  <p className="text-sm">Project 3</p>
+                </div>
+              </div>
+              <div className="bg-gray-200 rounded-lg flex items-center justify-center">
+                <div className="text-center text-gray-500">
+                  <svg className="w-16 h-16 mx-auto mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+                  </svg>
+                  <p className="text-sm">Project 4</p>
+                </div>
               </div>
             </div>
           </div>
@@ -44,7 +70,7 @@ export default function About() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-white p-8 rounded-lg shadow-lg">
@@ -73,7 +99,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Values */}
       <section className="py-16 bg-white">
