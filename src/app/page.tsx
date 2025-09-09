@@ -147,63 +147,6 @@ export default function Home() {
     }
   ];
 
-  const services = [
-    {
-      id: 1,
-      title: "Powering Nations",
-      icon: (
-        <svg className="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-        </svg>
-      ),
-      gradient: "from-blue-500 to-cyan-500",
-      bgGradient: "from-blue-50 to-cyan-50"
-    },
-    {
-      id: 2,
-      title: "Linking Borders",
-      icon: (
-        <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9m0 9c-5 0-9-4-9-9s4-9 9-9" />
-        </svg>
-      ),
-      gradient: "from-green-500 to-emerald-500",
-      bgGradient: "from-green-50 to-emerald-50"
-    },
-    {
-      id: 3,
-      title: "Hydrating Masses",
-      icon: (
-        <svg className="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
-        </svg>
-      ),
-      gradient: "from-purple-500 to-pink-500",
-      bgGradient: "from-purple-50 to-pink-50"
-    },
-    {
-      id: 4,
-      title: "Renewing Lifestyles",
-      icon: (
-        <svg className="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-        </svg>
-      ),
-      gradient: "from-yellow-500 to-orange-500",
-      bgGradient: "from-yellow-50 to-orange-50"
-    },
-    {
-      id: 5,
-      title: "Healing Mankind",
-      icon: (
-        <svg className="w-8 h-8 text-cyan-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-        </svg>
-      ),
-      gradient: "from-cyan-500 to-blue-500",
-      bgGradient: "from-cyan-50 to-blue-50"
-    }
-  ];
 
   // Auto-scroll functionality disabled
   // useEffect(() => {
@@ -386,7 +329,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-gray-900 mb-4 animate-fade-in-up" style={{ animationDelay: '0.2s' }}>Our Vision</h3>
               <p className="text-gray-600 leading-relaxed animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
-                Aarkey aspires to be the world's leading and most respected conglomerate, setting new standards of sustainability with the greenest global footprint, while proudly embodying the spirit and authenticity of Sri Lanka.
+                Aarkey aspires to be the world&apos;s leading and most respected conglomerate, setting new standards of sustainability with the greenest global footprint, while proudly embodying the spirit and authenticity of Sri Lanka.
               </p>
             </div>
 

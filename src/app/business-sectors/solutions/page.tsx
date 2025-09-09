@@ -23,7 +23,7 @@ export default function AarkeySolutions() {
                 Aarkey Solutions was founded in 2014 and is a Digital Media Advertising agency with a vast scope for expansion and a different approach to advertising.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                While exploring vistas to extend the company's services, we have already established a comprehensive portfolio of digital media solutions that help businesses connect with their audiences effectively.
+                While exploring vistas to extend the company&apos;s services, we have already established a comprehensive portfolio of digital media solutions that help businesses connect with their audiences effectively.
               </p>
               <div className="bg-purple-50 p-6 rounded-lg">
                 <h3 className="text-xl font-semibold text-purple-900 mb-3">Our Approach</h3>

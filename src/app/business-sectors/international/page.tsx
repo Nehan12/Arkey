@@ -20,7 +20,7 @@ export default function AarkeyInternational() {
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">Construction Excellence</h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                With extensive experience in executing to perfection, mid to large scale infrastructure development projects and diverse construction projects, the team's competency levels and skills are at optimum, making them masters of their trade.
+                With extensive experience in executing to perfection, mid to large scale infrastructure development projects and diverse construction projects, the team&apos;s competency levels and skills are at optimum, making them masters of their trade.
               </p>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
                 Aarkey International is accredited by the governing bodies of ICTAD and CIIDA, ensuring the highest standards of quality and professionalism in all our construction projects.
@@ -171,7 +171,7 @@ export default function AarkeyInternational() {
         <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold mb-6">Ready to Start Your Construction Project?</h2>
           <p className="text-xl mb-8 text-blue-200">
-            Let's discuss how Aarkey International can help bring your infrastructure vision to life
+            Let&apos;s discuss how Aarkey International can help bring your infrastructure vision to life
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/contact" className="bg-white text-blue-900 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold transition-colors">
